@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Harini Neha Kumar</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        header h1, header h2, header p, header h3 {
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        header h1 {
+            animation-delay: 0.2s;
+        }
+
+        header h2 {
+            animation-delay: 0.4s;
+        }
+
+        header p {
+            animation-delay: 0.6s;
+        }
+
+        header h3 {
+            animation-delay: 0.8s;
+            animation: fadeInUp 1s ease-in-out, bounce 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Harini Neha Kumar</h1>
+        <h2>Web Developer | Software Developer</h2>
+        <p>Welcome to my portfolio website! Explore My Skills</p>
+        <p><i>"Engineering Tomorrow's Innovations Today: Building the Digital Future, One Algorithm at a Time.<br> 
+            Transforming Ideas into Reality with Creative Coding and Cutting-Edge Technology.<br> 
+            From Concept to Code, I Design Solutions that Empower the Future."</i></p>
+        <h3><bdi><i> "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.<br> 
+            And the only way to do great work is to love what you do. 
+            If you haven't found it yet, keep looking. Don't settle.<br>
+            As with all matters of the heart, you'll know when you find it."<i></i> - Steve Jobs</bdi></h3>
+    </header>
+    <footer>
+        <p>&copy; 2024 K. Harini Neha</p>
+        <div class="footer-icons">
+            <a href="https://www.linkedin.com/in/harini-neha-aa0a96300"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://wa.me/qr/VDKEKF4WHUASJ1"><img src="icons/whatsapp.png" alt="Whatsapp"></a>
+            <a href="https://github.com/HariniNehaKumar/Webprojects.git"><img src="icons/github.png" alt="GitHub"></a>
+            <a href="mailto:harinineha.cse24@gmail.com"><img src="icons/email.png" alt="Email"></a>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+

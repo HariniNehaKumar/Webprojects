@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Harini Neha</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animated {
+    animation: slideInFromLeft 1s ease-in-out;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <div class="about-container">
+            <img src="profile.jpg.jpg" alt="Profile Photo" class="profile-photo animated">
+            <div class="about-text">
+                <p>I am Harini Neha Kumar, a dedicated BE Computer Science student with a passion for technology and innovation. Skilled in programming languages such as Python, Java, and C++, I excel in developing efficient and creative solutions. My experience includes working on various academic projects, internships, and contributing to open-source software. I am an enthusiastic learner, always eager to explore new technologies and enhance my technical skills. With strong problem-solving abilities and a collaborative mindset, I am committed to contributing effectively to any team. Seeking opportunities to leverage my expertise in a dynamic and growth-oriented environment.</p>
+                <a class="resume-download" href="assets/resume.pdf" download>Download Resume</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 K. Harini Neha</p>
+        <div class="footer-icons">
+            <a href="https://www.linkedin.com/in/harini-neha-aa0a96300"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://wa.me/qr/VDKEKF4WHUASJ1"><img src="icons/whatsapp.png" alt="Whatsapp"></a>
+            <a href="https://github.com/HariniNehaKumar/Webprojects.git"><img src="icons/github.png" alt="GitHub"></a>
+            <a href="mailto:harinineha.cse24@gmail.com"><img src="icons/email.png" alt="Email"></a>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
